@@ -1,5 +1,13 @@
 # melos_sample_pj
 
+https://melos.invertase.dev/
+
+```sh
+melos bootstrap
+
+melos list --graph
+```
+
 ## 参考文献
 
 https://melos.invertase.dev/guides/migrations
