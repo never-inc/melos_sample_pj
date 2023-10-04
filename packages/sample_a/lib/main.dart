@@ -1,5 +1,6 @@
 import 'package:app_common/common_page.dart';
 import 'package:flutter/material.dart';
+import 'package:hello/hello.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CommonPage(),
+      home: GestureDetector(
+        onTap: () {
+          debugPrint(Calculator().addOne(0).toString());
+        },
+        child: const CommonPage(),
+      ),
     );
   }
 }

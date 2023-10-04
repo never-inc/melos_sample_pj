@@ -15,6 +15,8 @@ dependencies:
 
   app_common:
     path: ../app_common/
+  hello:
+    path: ../hello/
 
 dev_dependencies:
   flutter_test:
